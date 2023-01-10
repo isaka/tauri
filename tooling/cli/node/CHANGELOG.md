@@ -1,5 +1,12 @@
 # Changelog
 
+## \[1.3.0]
+
+- Add `--png` option for the `icon` command to generate custom icon sizes.
+  - [9d214412](https://www.github.com/tauri-apps/tauri/commit/9d2144128fc5fad67d8404bce95f82297ebb0e4a) feat(cli): add option to make custom icon sizes, closes [#5121](https://www.github.com/tauri-apps/tauri/pull/5121) ([#5246](https://www.github.com/tauri-apps/tauri/pull/5246)) on 2022-12-27
+- Add `nsis` bundle target
+  - [c94e1326](https://www.github.com/tauri-apps/tauri/commit/c94e1326a7c0767a13128a8b1d327a00156ece12) feat(bundler): add `nsis`, closes [#4450](https://www.github.com/tauri-apps/tauri/pull/4450), closes [#2319](https://www.github.com/tauri-apps/tauri/pull/2319) ([#4674](https://www.github.com/tauri-apps/tauri/pull/4674)) on 2023-01-03
+
 ## \[1.2.2]
 
 - Detect SvelteKit and Vite for the init and info commands.
