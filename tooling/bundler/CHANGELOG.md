@@ -1,5 +1,14 @@
 # Changelog
 
+## \[1.2.0]
+
+- Add dylib support to `tauri.bundle.macOS.frameworks`.
+  - [ce76d95a](https://www.github.com/tauri-apps/tauri/commit/ce76d95ab186f4556166a2a22360067eab000fc8) feat(tauri-cli): add dylib support to `tauri.bundle.macOS.frameworks`, closes [#4615](https://www.github.com/tauri-apps/tauri/pull/4615) ([#5732](https://www.github.com/tauri-apps/tauri/pull/5732)) on 2022-12-31
+- Add `nsis` bundle target
+  - [c94e1326](https://www.github.com/tauri-apps/tauri/commit/c94e1326a7c0767a13128a8b1d327a00156ece12) feat(bundler): add `nsis`, closes [#4450](https://www.github.com/tauri-apps/tauri/pull/4450), closes [#2319](https://www.github.com/tauri-apps/tauri/pull/2319) ([#4674](https://www.github.com/tauri-apps/tauri/pull/4674)) on 2023-01-03
+- On Windows, the `msi` installer's `Launch App` checkbox will be checked by default.
+  - [89602cdc](https://www.github.com/tauri-apps/tauri/commit/89602cdce34f3ea5b4a9b8921dc04a197f2d7de8) feat(bundler): check `Launch app` by default for WiX, closes [#5859](https://www.github.com/tauri-apps/tauri/pull/5859) ([#5871](https://www.github.com/tauri-apps/tauri/pull/5871)) on 2022-12-26
+
 ## \[1.1.2]
 
 - Fixes blank taskbar icon on WiX updates.
